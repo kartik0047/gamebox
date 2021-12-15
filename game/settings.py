@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-^88(-lq121%8hv5wj*8p6i!n+1$(uczpmdba=ic=r&(o%xm-%p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["127.0.0.1"]
+ALLOWED_HOSTS = ["127.0.0.1", 'img456.herokuapp.com']
 
 
 # Application definition
@@ -135,4 +135,4 @@ MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / 'media'
 
 
-CART_SESSION_ID = 'cart'
+#CART_SESSION_ID = 'cart'
