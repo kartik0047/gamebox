@@ -1,0 +1,81 @@
+{% extends 'header.html' %}
+
+{% load static %}
+
+{% block title %}View Cart{% endblock title %}
+
+
+{% block body %}
+{% load cart_tag %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-10">
+            <br>
+            <h5 style="font-family:Philosopher,sans-serif">COFIRM YOUR ORDER!:</h5>
+            <div class="card card-body">			
+                <table class="table table-sm">
+                    <tr>
+                        <th>Image</th>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Qty</th>
+                        <th>Total</th>
+                                               
+                       
+                    </tr>
+                   {% for key,value in request.session.cart.items %}
+                    <tr>
+                
+                        <td>  <a><img height="100px" width="100px" style="border-radius:100px;" src="{{value.image}}"></a></td> 
+                        <td>  {{value.name}} </td>
+                        <td> ₹{{value.price}} </td>
+                        <td>  {{value.quantity}} </td>
+                        <td>  {{value.price|multiply:value.quantity}} </td>
+                    
+                    {% endfor %}
+                    </tr>
+                    <tr>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                          
+                           <th>Subtotal:</th> <td> {{ cart_total_amount }}</td>
+                    </tr>
+                   
+                </table> 
+        </div>
+        
+                    <div style="float: left;">
+                        <a class = "btn btn-primary" style="border-radius:20px;width:180px" href="/checkout" role="button"> Update Details</a>
+                    </div>
+
+                    <div style="float: right;">
+                         <a class = "btn btn-success" style="border-radius:20px;width:150px"  href="/payment/{{ cart_total_amount }}" role="button">Pay Now</a>     
+                    </div>
+    </div>
+</div>
+<br>
+<h3 align="center">Order Confirmation</h3>
+<br>                                                                      
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6" style="background-color:lavender;"> 
+        <h4>Your Information</h4>
+            <hr>
+                <p>Name      :   {{ login_ifno.name }} </p>
+                <p>Email     :   {{ login_ifno.email}} </p>
+                <p>Mobile No :   {{ login_ifno.phone}} </p>
+    </div>
+
+    <div class="col-sm-6" style="background-color:lavenderblush;"><h4>Billing Address</h4>
+        <hr>
+            <p>Name : {{ request.session.bill_fname }} {{ request.session.bill_lname }} </p>
+            <p>Email: {{ request.session.bill_email }} </p>
+            <address> Address: {{ request.session.bill_address }} </address>
+            <p>Pincode: {{ request.session.bill_pin }} </p>
+            <p>Contact No : {{ request.session.bill_phone }} </p>
+        </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}
