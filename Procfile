@@ -1,1 +1,1 @@
-web: gunicron game.wsgi
+web: gunicorn game.wsgi
