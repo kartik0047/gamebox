@@ -2,7 +2,7 @@ from django.contrib import admin
 
 # Register your models here.
 
-from .models import Games,Contact,Details,Requirements,Checkout,Register,Order,Order_item
+from .models import Games,Contact,Details,Requirements,Checkout,Register,Order,Order_item,Coupons,Send_email,OTP,Wishlist
 
 class GamesAdmin(admin.ModelAdmin):
      list_display = ('name', 'image','price' )
@@ -13,7 +13,7 @@ class ContactAdmin(admin.ModelAdmin):
 admin.site.register(Contact, ContactAdmin)
 
 class RegisterAdmin(admin.ModelAdmin):
-     list_display = ('name', 'email','phone', 'password' )
+     list_display = ('id','name', 'email','phone', 'password' )
 admin.site.register(Register, RegisterAdmin)
 
 class DetailsAdmin(admin.ModelAdmin):
@@ -25,14 +25,31 @@ class RequirementsAdmin(admin.ModelAdmin):
 admin.site.register(Requirements, RequirementsAdmin)
 
 class CheckoutAdmin(admin.ModelAdmin):
-     list_display = ('fname', 'lname', 'email','phone', 'address','state','city', 'pin')
+     list_display = ('id','fname', 'lname', 'email','phone', 'address','state','city', 'pin')
 admin.site.register(Checkout, CheckoutAdmin)
 
 class OrderAdmin(admin.ModelAdmin):
-     list_display = ('customer', 'total_amount', 'created_date','bill', 'status')
+     list_display = ('id','customer', 'total_amount', 'created_date','bill_address', 'status')
 admin.site.register(Order, OrderAdmin)
 
 class Order_itemAdmin(admin.ModelAdmin):
-     list_display = ('order', 'qty', 'sub_total', 'status')
+     list_display = ('id','customer','image','games', 'qty','price','status') 
 admin.site.register(Order_item, Order_itemAdmin)
+
+class WishlistAdmin(admin.ModelAdmin):
+     list_display = ('id','customer','games','status') 
+admin.site.register(Wishlist, WishlistAdmin)
+
+class CouponsAdmin(admin.ModelAdmin):
+     list_display = ('code', 'valid_from', 'valid_to', 'discount', 'active')
+admin.site.register(Coupons, CouponsAdmin)
+
+class Send_emailAdmin(admin.ModelAdmin):
+     list_display = ('subject', 'message', 'email_from', 'recipient_list')
+admin.site.register(Send_email, Send_emailAdmin)
+
+class OTPAdmin(admin.ModelAdmin):
+     list_display = ('otp', 'date')
+admin.site.register(OTP, OTPAdmin)
+     
 

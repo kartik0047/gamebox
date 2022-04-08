@@ -4,8 +4,8 @@
 
 {% block title %}Home{% endblock title %}
 
-
 {% block body %}
+
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -41,12 +41,15 @@
                 <div class="card mb-4 box-shadow">
                   <img class="card-img-top" src="{{game.image.url}}" alt="Card image cap">
                   <div class="card-body">
-                    <p class="card-text"> {{game.name}}</p>
+                    <p class="card-text"> {{game.name}}</p><p>₹{{game.price}}</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <a href="/details/{{game.id}}/{{game.name}}" class="btn btn-sm btn-outline-secondary">View</a> &nbsp;
-                        <a class="btn btn-sm btn-info" href="{% url 'cart_add' game.id %}">Add to cart</a>
-                        
+                        <a href="/details/{{game.id}}/{{game.name}}" class="btn btn-sm btn-outline-secondary">View</a> &nbsp; 
+                        {% if request.session.email %}
+                          <a class="btn btn-sm btn-info" href="{% url 'cart_add' game.id %}"><i class="fa fa-shopping-cart" aria-hidden="true" style="font-size:20px;"></i></a> &nbsp;
+                          <a class="btn btn-sm btn-danger" href="{% url 'add_to_wishlist' game.id %}"><i class="fa fa-heart"></i></a> &nbsp;
+                          <a class="btn btn-sm btn-success" href="/checkout/{{game.id}}">Buy Now</a> &nbsp;
+                        {% endif %} 
                       </div>
                     </div>
                   </div>

@@ -1,0 +1,47 @@
+{% extends 'header.html' %}
+
+{% load static %}
+
+{% load mathfilters %}
+
+{% block title %}My Wishlist{% endblock title %}
+
+{% block body %}
+{% load cart_tag %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-10">
+            <br>
+            <h5>My Wishlist:</h5>
+            <div class="card card-body">			
+                <table class="table table-sm">
+                    <tr>
+                        <th>Image</th>
+                        <th>Game</th>
+                        <th>Price</th>
+                        <th>Add to Cart</th>
+                        <th>Purchase</th>
+                        <th>Remove</th> 
+                    </tr>
+
+                    {% for wish in games_da %}   
+                    <tr>
+                    {% if wish.customer_id == request.session.id %} 
+                        <td> <a><img height="100px" width="100px" style="border-radius:100px;" src="{{wish.games.image.url}}"></a> </td> 
+                        <td>  {{wish.games}} </td>
+                        <td> ₹{{wish.games.price}} </td>
+                        <td> <a class="btn btn-sm btn-info" href=""><i class="fa fa-shopping-cart" aria-hidden="true" style="font-size:20px;"></i></a></td>
+                        <td> <a class="btn btn-sm btn-success" href=" ">Buy Now</a></td>
+                        <td> <a href=""><i class="fa fa-trash" aria-hidden="true" style="font-size:25px"></i></a> </td>
+                    </tr>
+                   {% endif %}  
+                   {% endfor %} 
+                    <tr>
+                        <td><a class = "btn btn-danger"  href="" role="button">Clear</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}

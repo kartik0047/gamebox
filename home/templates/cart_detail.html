@@ -2,8 +2,9 @@
 
 {% load static %}
 
-{% block title %}View Cart{% endblock title %}
+{% load mathfilters %}
 
+{% block title %}View Cart{% endblock title %}
 
 {% block body %}
 {% load cart_tag %}
@@ -20,48 +21,61 @@
                         <th>Price</th>
                         <th>Qty</th>
                         <th>Total</th>
-                        <th>Remove</th>
-                                               
-                       
+                        <th>Remove</th> 
                     </tr>
                    {% for key,value in request.session.cart.items %}
                     <tr>
-                
                         <td><a><img height="100px" width="100px" style="border-radius:100px;" src="{{value.image}}"></a></td> 
                         <td> {{value.name}} </td>
-                        <td> ₹{{value.price}}</td>
+                        <td> ₹{{value.price|floatformat:"0"}}</td>
                         <td> <a class = "btn btn-primary" href="{% url 'item_decrement' value.product_id %}" role="button"> - </a>
                         <input type=text size="1" value="{{value.quantity}}" >
                         <a class = "btn btn-primary" href="{% url 'item_increment' value.product_id %}" role="button"> + </a> </td>
-                        <td> {{ value.price|multiply:value.quantity }}</td>
-                        <td><a href="{% url 'item_clear' key %}"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
-                    
+                        <td> ₹{{ value.price|multiply:value.quantity|floatformat:"0" }}</td>
+                        <td><a href="{% url 'item_clear' key %}"><i class="fa fa-trash" aria-hidden="true" style="font-size:25px"></i></a></td>
                     {% endfor %}
                     </tr>
                     <tr>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-
-                           <th>Subtotal:</th> <td>{{ cart_total_amount }}</td>
+                        <td></td>
+                        <td></td>
+                        <td><th>Subtotal:</th><td>₹{{ cart_total_amount|floatformat:"0" }}</td>
+                        <tr>
+                            <th>Apply Coupon</th><form action="/coupon_apply" method="POST">
+                            {% csrf_token %}
+                            <td><input type="text" name="code" placeholder="Enter Coupon Code" size="15" required>
+                            <input type="submit" class = "btn btn-primary" value="Apply" ></td>
+                            <td></td></form>
+                            {% if coupon_info.discount %}
+                                {% with Discount=cart_total_amount|multiply:coupon_info.discount|div:100 %}
+                                <th>Discount:</th><td style="color:red">-₹{{Discount|floatformat:"0"}} ({{coupon_info.discount}}% off)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                                <th>Total:<td>₹{{cart_total_amount|sub:Discount|floatformat:"0"}}</td></th>
+                        </tr>
+                                {% endwith %}
+                        </tr>
+                        {% else %}
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <th><b>Total:<td><b>₹{{cart_total_amount|floatformat:"0"}}<b></td><b></th>
+                        </tr>
+                            {% endif %} 
                     </tr>
                     <tr>
-                           
-
-                           <th><a class = "btn btn-success" href="/checkout" role="button"> Proccess to Checkout</a></td>
+                           <th><a class = "btn btn-success" href="/checkout" role="button">Checkout</a></td>
+                           <td><a class = "btn btn-primary" href="/ " role="button">Continue Shopping</a></td>
                            <td></td>
                            <td></td>
                            <td></td>
-                           <td></td>
-
                            <td> <a class = "btn btn-danger"  href="{% url 'cart_clear' %}" role="button">Clear Cart&nbsp;<i class="fa fa-shopping-cart" aria-hidden="true" style="font-size: 20px;}"></i></a></td>
                     </tr>
-                    
-                </table>
             </div>
         </div>
     </div>
 </div>
-
-
 {% endblock body %}

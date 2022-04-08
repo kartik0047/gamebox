@@ -1,0 +1,46 @@
+{% extends 'header.html' %}
+
+{% load static %}
+
+{% load mathfilters %}
+
+{% block title %}My Orders{% endblock title %}
+
+{% block body %}
+{% load cart_tag %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-10">
+            <br>
+            <h5>My Orders:</h5>
+            <div class="card card-body">			
+                <table class="table table-sm">
+                    <tr>
+                        <th>Image</th>
+                        <th>Game</th>
+                        <th>Qty</th>
+                        <th>Total Price</th>
+                        <th>Remove</th> 
+                    </tr>
+                    {% for order_item in order_list %}
+                    {% if   order_item.customer_id == request.session.id %}
+                    <tr>
+                        <td>  <a><img height="100px" width="100px" style="border-radius:100px;" src="{{order_item.image}}"></a></td> 
+                        <td>  {{order_item.games}} </td>
+                        <td>  {{order_item.qty}} </td>
+                        <td> ₹{{order_item.price|mul:order_item.qty}} </td>
+                        <td>  <a href=""><i class="fa fa-trash" aria-hidden="true" style="font-size:25px"></i></a></td>
+                    {% endif %} 
+                    {% endfor %}
+
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td><a class = "btn btn-danger"  href="" role="button">Clear</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}

@@ -1,0 +1,32 @@
+{% extends 'header.html' %}
+
+{% load static %}
+
+{% block title %}Coupons{% endblock title %}
+
+
+{% block body %}
+
+<div class="container my-5" align="center">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="{% static '/coupon_1.jpg' %}" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text" style="font-size:20px">
+                            Massive discounts and limitless $10 off coupons hit the Gamebox
+                        </p>
+                        <a class="btn btn-sm btn-success" href="{% url 'cart_detail' %}">Use Coupon</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5" align="center">
+    <h1>You do not have any coupons</h1>
+    <p>New coupons that you receive will appear here</p>
+    <a class = "btn btn-primary"  href="{% url 'index' %}" role="button">Back To Store</a>
+</div>
+
+{% endblock body %}

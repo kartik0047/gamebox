@@ -4,7 +4,6 @@
 
 {% block title %}View Cart{% endblock title %}
 
-
 {% block body %}
 {% load cart_tag %}
 <div class="container">
@@ -19,38 +18,31 @@
                         <th>Title</th>
                         <th>Price</th>
                         <th>Qty</th>
-                        <th>Total</th>
-                                               
-                       
+                        <th>Total</th>                            
                     </tr>
-                   {% for key,value in request.session.cart.items %}
-                    <tr>
-                
-                        <td>  <a><img height="100px" width="100px" style="border-radius:100px;" src="{{value.image}}"></a></td> 
-                        <td>  {{value.name}} </td>
+                    {% for key,value in request.session.cart.items %}
+                     <tr>
+                        <td><a><img height="100px" width="100px" style="border-radius:100px;" src="{{value.image}}"></a></td> 
+                        <td>  {{value.name}}  </td>
                         <td> ₹{{value.price}} </td>
                         <td>  {{value.quantity}} </td>
                         <td>  {{value.price|multiply:value.quantity}} </td>
-                    
                     {% endfor %}
                     </tr>
                     <tr>
-                           <td></td>
-                           <td></td>
-                           <td></td>
-                          
-                           <th>Subtotal:</th> <td> {{ cart_total_amount }}</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <th>Subtotal:</th> <td> {{ cart_total_amount }}</td>
                     </tr>
-                   
                 </table> 
         </div>
-        
                     <div style="float: left;">
                         <a class = "btn btn-primary" style="border-radius:20px;width:180px" href="/checkout" role="button"> Update Details</a>
                     </div>
 
                     <div style="float: right;">
-                         <a class = "btn btn-success" style="border-radius:20px;width:150px"  href="/payment/{{ cart_total_amount }}" role="button">Pay Now</a>     
+                         <a class = "btn btn-success" style="border-radius:20px;width:150px"  href="/payment/{{cart_total_amount}}" role="button">Place Order</a>     
                     </div>
     </div>
 </div>

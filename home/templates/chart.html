@@ -1,0 +1,15 @@
+{% extends 'header.html' %}
+
+{% load static %}
+
+{% block title %}Chart{% endblock title %}
+
+
+{% block body %}
+
+{% if chart %}
+    <img src="data:image/png;base64, {{chart|safe}}">
+{% endif %}
+	
+
+{% endblock body %}
