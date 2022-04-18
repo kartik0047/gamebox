@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-^88(-lq121%8hv5wj*8p6i!n+1$(uczpmdba=ic=r&(o%xm-%p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["127.0.0.1", 'img456.herokuapp.com']
+ALLOWED_HOSTS = ["127.0.0.1", 'gamedem.herokuapp.com']
 #ALLOWED_HOSTS = [ ]
 
 
@@ -63,7 +63,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'game.urls'
+ROOT_URLCONF = 'HP.urls'
 
 TEMPLATES = [
     {
@@ -83,7 +83,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'game.wsgi.application'
+WSGI_APPLICATION = 'HP.wsgi.application'
 
 #LOGIN_WITH_GOOGLE
 

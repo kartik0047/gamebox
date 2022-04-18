@@ -1,0 +1,20 @@
+def student_profile(request, reg_no):
+    student = AcademicInfo.objects.get(registration_no=reg_no)
+    context = {
+        'student': student
+    }
+    return render(request, 'student/student-profile.html', context)
+	
+	
+	from django import forms
+
+from .models import *
+from academic.models import ClassInfo
+
+class AcademicInfoForm(forms.ModelForm):
+    class Meta:
+        model = AcademicInfo
+        exclude = ['registration_no', 'status', 'personal_info', 'address_info', 'guardian_info', 'emergency_contact_info', 'previous_academic_info', 'previous_academic_certificate', 'is_delete']
+        widgets = {
+            'class_info': forms.Select(attrs={'class': 'form-control'})
+        }

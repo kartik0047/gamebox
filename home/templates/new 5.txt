@@ -1,0 +1,595 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Payment | Aadri Pure & Spiritual Products</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keywords" content="Vastu,Astrology,Astrology Consultation,Vastu Shastra,Vastu Tips,Vastu Consultant,vastu for home,vastu for office,vastu consultant india,vastu consultancy services,Astrology consultancy services,top vastu consultant in india,top vastu consultant in delhi,top vastu consultant in mumbai,top Astrology consultant in india,top Astrology consultant in delhi,top Astrology consultant in mumbai,vastu services near me,online vastu services,vastu expert services,Astrology today,online kundali matching,online kundali making,astrologer,astrologer near me,Astrology Course,Vastu Course,Astrology Courses in india,Vastu courses in india,Best vastu course,Vastu course in mumbai,astrologer in india,astrologer in delhi,astrologer in mumbai,Spiritual,Horoscope,Zodiac Signs,Jyotish,Vastulogy,Free tips on Vastu,Astrology and Spiritualism,Genuine horoscope reading,professional vastu consultancy,Learn A to Z of Vastu and Astrology">
+	<meta name="Description" content="Free tips on Vastu, Astrology and Spiritualism. Genuine horoscope reading, professional vastu consultancy from well experienced panel of experts. Learn A to Z of Vastu and Astrology. Buy collectible products from our Spiritual Gallery.">
+    <!-- stylesheet -->
+    
+    <link rel="stylesheet" href="https://aadri.in/assets/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://aadri.in/assets/js/plugin/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://aadri.in/adminsage/global_assets/css/icons/icomoon/styles.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://aadri.in/assets/css/fonts.css"/>
+    <link rel="stylesheet" type="text/css" href="https://aadri.in/assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="https://aadri.in/assets/css/scroll.css"/>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="https://aadri.in/assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://aadri.in/assets/css/media_queries.css"/>
+    <style>
+        hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-top: 0.1px solid #7373736e;
+        }   
+    </style>
+</head>
+<body id="body_bg">
+     <div class="as_loader">
+        <img src="https://aadri.in/assets/images/butterfly.gif" alt="butterfly aadri loader" class="img-responsive" style="height:80px;width:auto;">
+    </div>
+    <div class="as_main_wrapper">
+       <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PR7G6FGBTY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PR7G6FGBTY');
+</script><div class="header__fixed">
+
+ <section class="as_header_wrapper" style="border-bottom: 2px solid #031d2e; box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;">
+            <div class="" style="height:79px;width:179px;text-align:center;vertical-align: middle;border-right: 1px solid rgb(255 255 255 / 10%);">
+                                <a href="https://aadri.in/Home"><img src="https://aadri.in/adminsage/assets/Uploads/Images/Aadri_Small.png" alt="aadri image home link image" style="height:auto;    width: 110px;padding-top: 7px;"></a>
+                            </div>
+            <div class="as_header_detail">
+                <div class="as_menu_wrapper">
+                    <span class="as_toggle">
+                        <img src="https://aadri.in/assets/images/svg/menu.svg" alt="aadri svg aadri menu">
+                    </span>
+                    <div class="as_menu">
+                                                <div class="divNone" style="text-align:center;padding-top: 25px;" >
+                                                            <img src="https://aadri.in/assets/images/20211109040918rupee.png" alt="aadri customer logged-in astrology vastu" style="height: 50px;width: 50px;border-radius: 100%;border: 2px solid lightgrey;background-color:white;">
+                                                        <p style="padding-top: 10px;">Welcome, ab</p>
+                            <a href="https://aadri.in/Login/logout_client"><i class="icon-switch" style="font-size:15px;"></i></a>
+                            <hr style="margin-bottom: 0px;">
+                        </div>
+                                                <ul>
+                            <li class="borderBottomNone"><a href="https://aadri.in/Home"  >Home</a></li>
+                            
+                             <li class="borderBottomNone"><a href="https://aadri.in/Service"  >Service</a>
+                               <!--<ul class="as_submenu" style="width:214px;">-->
+                                                                      
+                               <!--     <li><a  href="Service/ServiceDetails//"></a></li>-->
+                                  
+                                                                   <!-- </ul> -->
+                            </li>
+                            
+                            <li class="borderBottomNone"><a href="javascript:;"> Blog</a>
+                                <ul class="as_submenu">
+                                                                            <li><a  href="https://aadri.in/Blog/blog-category/1/English">English</a></li>
+                                                                            <li><a  href="https://aadri.in/Blog/blog-category/2/Hindi">Hindi</a></li>
+                                                                            <li><a  href="https://aadri.in/Blog/blog-category/5/Video">Video</a></li>
+                                                                    </ul>
+                            </li>
+                            <li class="borderBottomNone"><a  href="javascript:;" >Shop</a>
+                               <ul class="as_submenu">
+                                                                       <li><a  href="https://aadri.in/Products/product-category/1">Books                                        </a>
+                                    </li>
+                                                                       <li><a  href="https://aadri.in/Products/product-category/2">Products                                        </a>
+                                    </li>
+                                                                       <li><a  href="https://aadri.in/Products/product-category/3">Remedies                                        </a>
+                                    </li>
+                                                                   </ul> 
+                            </li>
+                            
+                            
+                            <!--<li class="borderBottomNone"><a href="https://aadri.in/Appointment"  >Appointment</a></li>-->
+                              
+                            
+                            
+                            
+                            <li class="borderBottomNone"><a href="https://aadri.in/About"  >about</a></li>
+                            
+                            <!--<li class="borderBottomNone"><a href="Faq"  >faq</a></li>-->
+                            
+                            <li class="borderBottomNone"><a href="https://aadri.in/Contact"  >Contact</a></li>
+                                                        <li class="borderBottomNone"><a href="https://aadri.in/Profile">My Profile</a></li>
+                                                        
+                                                       <li>
+                                <div class="as_cart cart_margin_set marginTop10"  id="body_bg">
+                                    <div class="as_cart_wrapper" style="margin-left: 0px;">
+                                        <span><img src="https://aadri.in/assets/images/svg/cart.svg" alt=""><span class="as_cartnumber">2</span></span>
+                                        700                                        <span class="divNone" style="margin: auto;font-weight: bold;color: #ff7010;"><a href="https://aadri.in/Cart" style="padding:inherit;"> View Cart </a></span>
+                                    </div>
+
+                                    <div class="as_cart_box profileNone">
+								        <div class="as_cart_list">
+									        <ul>
+										        <li>
+                                                    <table style="width: 100%;display: inline-table;margin-bottom: 10px;margin-top: 5px;">
+                                                        <tbody>
+                                                                                                                        <tr>
+                                                                <!--<td><img src="adminsage/assets/Uploads/Images/" alt="" class="img-responsive" style="height:60px;width:45px;border:1px solid white;border-radius: 2px;margin-top:5px;"></td>-->
+                                                                <td><a href="#">Turmeric Capsules</a></td>
+                                                                <td><h5>&#x20B9;200</h5></td>
+                                                            </tr>
+                                                                                                                        <tr>
+                                                                <!--<td><img src="adminsage/assets/Uploads/Images/" alt="" class="img-responsive" style="height:60px;width:45px;border:1px solid white;border-radius: 2px;margin-top:5px;"></td>-->
+                                                                <td><a href="#">Anti Stress Spray</a></td>
+                                                                <td><h5>&#x20B9;500</h5></td>
+                                                            </tr>
+                                                              
+                                                        </tbody>
+                                                    </table>
+        										</li>
+                                                
+									        </ul>
+								        </div>
+								        <div class="as_cart_total">
+                                             
+        									    <p>Grand Total<span>&#x20B9;700</span></p>
+                                                    								</div>
+								        <div class="as_cart_btn" style="display: contents;">
+        									<!--<a href="https://aadri.in/" style="float:left;color: #ff7010;font-weight: bold;font-size: small;">View Cart</a>-->
+        									<!--<a href="https://aadri.in/" style="float:right;color: #ff7010;font-weight: bold;font-size: small;">Back to Shopping</a>-->
+        									<a href="https://aadri.in/Cart" style="float:left;color: #ff7010;font-weight: bold;font-size: small;">View Cart</a>
+        									<a href="https://aadri.in/Products/product-category/1" style="float:right;color: #ff7010;font-weight: bold;font-size: small;">Back to Shopping</a>
+        								</div>
+            						</div>
+                                </div>
+                            </li>
+                                                    </ul>
+                    </div>
+                  
+                </div>
+            </div>
+            
+        </section>
+                <div class="col-md-2" style="text-align:right;font-size:12px;background-color: #ff7010;border-radius:0px 0px 0px 30px;float:right;color:white;">
+                        <div class="row" style="font-size: 11px;text-transform: uppercase;text-align: center;color: white;font-weight: bold;font-family: sans-serif;padding: inherit;">
+               <span>Welcome, ab </span>|<span> <a href="https://aadri.in/Login/logout_client" onClick="return confirm('Sure about logout ?');" >Logout <i class="icon-switch" style="font-size:11px;"></i></a></span>
+            </div>
+        </div>
+        </div>       <section class="as_breadcrum_wrapper" style="margin-top:80px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p class="breadcrumAlign">Confirm Order</p>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-sm-12 col-xs-12 col-lg-offset-1">
+                    <div class="checkout_wrapper_box">
+                           <ul id="progressbar">
+                                <li class="as_btn" >
+                                <a class="nav-link active_tab1" id="list_login_details">Billing Details</a>
+                                </li>
+
+                                <li class="active as_btn">
+                                    <a class="nav-link inactive_tab1" id="list_contact_details">Confirm Order</a>
+                                </li>
+
+                                <li class="as_btn">
+                                   <a class="nav-link inactive_tab1" id="list_order_details">Receipt</a>
+                                </li>    
+                            </ul>
+                        <div class="tab-content">
+                            <div id="login_details" class="tab-pane active text-left">
+                                <div id="contact_details" > 
+                                     <h1 class="as_padderBottom10"><center>COFIRM YOUR ORDER!</center></h1> 
+                                    <div style="background-color: #031d2e;border-radius: 5px;padding: 5px;">
+                                            <o style="font-size: 20px;"><b>Order Total : Rs 700.00</b></o>
+                                        </div>
+                                        <hr>
+                                        <h3>Order Summary</h3>
+                                        <div class="table-responsive a_cart_table" style="background-color:#031d2e;border-radius: 5px;">
+                                            <table class="table" style="margin-bottom: 0px;">
+                                                <thead>
+                                                    <tr>
+                                                        <th>No.</th>
+                                                        <th>Item</th>
+                                                        <th>Name</th>
+                                                        <th>Quantity</th>
+                                                        <th>Price</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                                                                <tr>
+                                                        <td>1</td>
+                                                        <td>
+                                                             <img src="https://aadri.in/adminsage/assets/Uploads/Images/Haldi11.jpg" alt="aadri cart items my-cart" class="img-responsive" style="height:60px;border:1px solid white;border-radius: 2px;margin-top:-5px;">  
+                                                        </td>
+                                                        
+                                                        <td>Turmeric Capsules</td>
+                                                        <td>1</td>
+                                                        <td>Rs 200</td>
+                                                    </tr>
+                                                                                                      <tr>
+                                                        <td>2</td>
+                                                        <td>
+                                                             <img src="https://aadri.in/adminsage/assets/Uploads/Images/WhatsApp_Image_2021-10-16_at_11_21_23_PM_(1).jpg" alt="aadri cart items my-cart" class="img-responsive" style="height:60px;border:1px solid white;border-radius: 2px;margin-top:-5px;">  
+                                                        </td>
+                                                        
+                                                        <td>Anti Stress Spray</td>
+                                                        <td>1</td>
+                                                        <td>Rs 500</td>
+                                                    </tr>
+                                                                                                  </tbody>
+                                                <tfoot>
+                                                    <tr>
+                                                        <th>No.</th>
+                                                        <th>Item</th>
+                                                        <th>Name</th>
+                                                        <th>Quantity</th>
+                                                        <th>Price</th>
+                                                    </tr>
+                                                </tfoot>
+                                            </table>
+                                            
+                                        </div>
+                                        <br>
+                                          
+                                        <div class="table-responsive a_cart_table" style="border-radius: 5px;">
+                                            <div class="col-md-4"></div>
+                                            <div class="col-md-4"></div>
+                                            <div class="col-md-4" style="background-color:#031d2e;padding: 5px;border-radius: 5px;">
+                                                                                                <p>Subtotal : Rs 200.00</p>
+                                                                                                <p>Subtotal : Rs 500.00</p>
+                                                                                                <hr style="margin-top: 0px;margin-bottom: 0px;">
+                                                <p><b>Grand Total : Rs.700.00</b></p>
+                                            </div>
+                                        </div>
+                                                                                <hr>
+                                        <h3>Order Confirmation</h3>
+                                        <div class="table-responsive a_cart_table" style="background-color:#031d2e;border-radius: 5px;padding: 5px;">
+                                            <div class="col-md-12">
+                                                <div class="col-md-6">
+                                                    <h4>Your Information</h4>
+                                                    <hr>
+                                                                                                   <p>Name : ab&nbsp;test</p>
+                                               <p>Email : ab@gmail.com</p>
+                                               
+                                               <p>Mobile No :9687748562                                               </p>
+                                               
+                                               <p>Address : A4/13, SMC E.W.S QUARTERS
+B/H SHREEJI NAGARI
+UGAT ROAD BHESAN SURAT GUJARAT</p>
+                                                </div>
+                                                <div class="col-md-6" id="billing_data">
+                                                    <h4>Billing Address</h4>
+                                                    <hr>
+                                                     <p> Name:    </p>
+                                                    <p>Email : </p>
+                                                    <address>
+                                                                                                           </address>
+                                                    <p>Pincode: </p>
+                                                    <p>Contact No : </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <br>
+                                    <p class="as_padderBottom50" style="font-family: Roboto,Arial,sans-serif;font-size: 14px;">Note : Confirm your order and verify all the details carefully..!, Once you verify the details click to Confirm Order for Payment Gateway.</p>
+                                    <a href="https://aadri.in/Checkout/"><button type="button" name="previous_btn_contact_details" id="previous_btn_contact_details" class="btn_omt next">Update Details</button></a>
+                                    <input  id="submit-pay" type="submit" onclick="razorpaySubmit(this);" value="Pay Now"  class="btn_omt next" style="float: right;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+     <!--Razor pay variable  -->
+                
+          <!--Razor pay form  Start  -->
+         <form name="razorpay-form" id="razorpay-form" action="https://aadri.in/razorpay/callback" method="POST">
+          <input type="hidden" name="razorpay_payment_id" id="razorpay_payment_id" />
+          <input type="hidden" name="merchant_order_id" id="merchant_order_id" value="16373143421"/>
+          <input type="hidden" name="merchant_trans_id" id="merchant_trans_id" value="1637314342"/>
+          <input type="hidden" name="merchant_product_info_id" id="merchant_product_info_id" value=""/>
+          <input type="hidden" name="merchant_surl_id" id="merchant_surl_id" value="https://aadri.in/order/payment_confirm"/>
+          <input type="hidden" name="merchant_furl_id" id="merchant_furl_id" value="https://aadri.in/razorpay/failed"/>
+          <input type="hidden" name="card_holder_name_id" id="card_holder_name_id" value="ab test"/>
+          <input type="hidden" name="merchant_total" id="merchant_total" value="70000"/>
+          <input type="hidden" name="merchant_amount" id="merchant_amount" value="700"/>
+        </form>     
+        
+         <!--Razor pay form  End   -->
+         
+        
+<div class="ask_question_div autoheight arrow-left" id="myQuestionDiv" style="display:none;">
+    <textarea name="ask_question" id="ask_sol" class="textareaStyle" placeholder="Enter your question here..." required></textarea><span id="error_ask" style="color:#ff7010;font-size: small;display:none;">Please enter your question.</span>
+    <input type="submit" name="btn_ask" value="Ask your question" style="margin-top:5px;width:100%;color: white;border: 2px solid #ff7010;border-radius: 5px;background: transparent;"
+        onclick="QuicksolutionrazorpaySubmitService(this);">
+        <p class="noteStyle">Note : 
+        ₹149 
+         will be charged for your question. What can you ask for ₹149? please <a href="https://aadri.in/Faq"><span style="font-size: 13px;
+          color: #ff7010; text-decoration: underline;">click here </span> </a> to know more.</p>
+</div>
+
+<div style="display:flex;position: fixed;bottom: 30px;right: 75px;z-index:100;">
+    <button class="ask_question" onclick="myToggleQuestion()">
+      <i class="icon-help" style="font-size:inherit;"></i>
+    </button>
+    <div> 
+        <span style="padding: 8px;background-color: #ff70108c;border-radius:10px;">Quick Solution!</span>
+    </div>
+</div>
+
+<section class="as_footer_wrapper as_padderTop80">
+            <div class="container">
+                <div class="row">
+                    <div class="as_footer_inner as_padderBottom80">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="as_footer_widget">
+                                <div class="as_footer_logo">
+                                                                        <a href="https://aadri.in/Home"><img src="https://aadri.in/adminsage/assets/Uploads/Images/Aadri_Small.png" alt="image svg home aadri" style="height:auto;width:150px;margin-bottom:17px;"></a>
+                                                                    </div>
+                                                                    <span style="font-size:15px;"><p style="text-align:justify">Aadri is all about bringing the wholeness of ancient Indian sciences in daily lives and we employ two-fold tactics to ac... <a href="https://aadri.in/About"><h5 style="color:#ff7010;font-family: 'Philosopher';font-weight: bold;">READ MORE <i class="icon-arrow-right7"></i></h5></a></span>
+                                                              
+                                <div class="as_share_box">
+                                    <p>Follow Us</p>
+                                    <ul>
+                                        <li><a target="_blank" href="https://www.facebook.com/Aadri-The-Sage-Advice-102668185343823/"><img src="https://aadri.in/assets/images/svg/facebook.svg" alt="aadri facebook sage advice" style="height:20px;width:20px;" target="_blank"></a></li>
+                                       <li><a target="_blank" href="https://instagram.com/aadrithesageadvice?igshid=w7fye8xjboqw"><img src="https://aadri.in/assets/images/svg/instagram.svg" alt="aadri instagram sage advice" style="height:20px;width:20px;"></a></li>
+                                       <li><a target="_blank" href="https://twitter.com/AadriSage?s=08"><img src="https://aadri.in/assets/images/svg/twitter.svg" 
+                                       alt="aadri twitter sage advice" style="height:20px;width:20px;"></a></li>
+                                       <li><a target="_blank" href="https://www.youtube.com/channel/UCxOhAYUqO80UwyCD4ZY5YHQ"><img src="https://aadri.in/assets/images/svg/youtube.svg" alt="aadri youtube sage advice" style="height:20px;width:20px;"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    	<div class="col-lg-3 col-md-6 col-sm-12 down-margin">
+                            <div class="as_footer_widget">
+                               <h3 class="as_footer_heading">Quick Links</h3>
+                               <ul>
+                                   <li><a href="https://aadri.in/About"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="8" height="12" viewBox="0 0 8 12"> <path d="M8.000,5.998 L-0.002,11.997 L1.292,5.998 L-0.002,-0.001 L8.000,5.998 ZM1.265,9.924 L6.502,5.998 L1.265,2.071 L2.112,5.998 L1.265,9.924 ZM5.451,5.998 L2.496,8.213 L2.974,5.998 L2.496,3.783 L5.451,5.998 Z" class="cls-1"/> </svg></span> About Us</a></li>
+                                    <li><a href="https://aadri.in/Support/terms-of-service"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="8" height="12" viewBox="0 0 8 12"> <path d="M8.000,5.998 L-0.002,11.997 L1.292,5.998 L-0.002,-0.001 L8.000,5.998 ZM1.265,9.924 L6.502,5.998 L1.265,2.071 L2.112,5.998 L1.265,9.924 ZM5.451,5.998 L2.496,8.213 L2.974,5.998 L2.496,3.783 L5.451,5.998 Z" class="cls-1"/> </svg></span> Terms & Conditions</a></li>
+                                    <li><a href="https://aadri.in/Faq"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="8" height="12" viewBox="0 0 8 12"> <path d="M8.000,5.998 L-0.002,11.997 L1.292,5.998 L-0.002,-0.001 L8.000,5.998 ZM1.265,9.924 L6.502,5.998 L1.265,2.071 L2.112,5.998 L1.265,9.924 ZM5.451,5.998 L2.496,8.213 L2.974,5.998 L2.496,3.783 L5.451,5.998 Z" class="cls-1"/> </svg></span> FAQ</a></li>
+                                    <li><a href="https://aadri.in/Support/privacy-policy"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="8" height="12" viewBox="0 0 8 12"> <path d="M8.000,5.998 L-0.002,11.997 L1.292,5.998 L-0.002,-0.001 L8.000,5.998 ZM1.265,9.924 L6.502,5.998 L1.265,2.071 L2.112,5.998 L1.265,9.924 ZM5.451,5.998 L2.496,8.213 L2.974,5.998 L2.496,3.783 L5.451,5.998 Z" class="cls-1"/> </svg></span> Privacy Policy</a></li>
+                                    <li><a href="https://aadri.in/Service"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="8" height="12" viewBox="0 0 8 12"> <path d="M8.000,5.998 L-0.002,11.997 L1.292,5.998 L-0.002,-0.001 L8.000,5.998 ZM1.265,9.924 L6.502,5.998 L1.265,2.071 L2.112,5.998 L1.265,9.924 ZM5.451,5.998 L2.496,8.213 L2.974,5.998 L2.496,3.783 L5.451,5.998 Z" class="cls-1"/> </svg></span> Services</a></li>
+                                    <li><a href="https://aadri.in/Contact"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="8" height="12" viewBox="0 0 8 12"> <path d="M8.000,5.998 L-0.002,11.997 L1.292,5.998 L-0.002,-0.001 L8.000,5.998 ZM1.265,9.924 L6.502,5.998 L1.265,2.071 L2.112,5.998 L1.265,9.924 ZM5.451,5.998 L2.496,8.213 L2.974,5.998 L2.496,3.783 L5.451,5.998 Z" class="cls-1"/> </svg></span> Contact Us</a></li>
+                               </ul>
+                            </div>
+                        </div>
+                         
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="as_footer_widget">
+                               <h3 class="as_footer_heading">Blogs</h3>
+
+                               <ul>
+                                                                      <li><a href="https://aadri.in/Blog/blog-category/1/English"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="8" height="12" viewBox="0 0 8 12"> <path d="M8.000,5.998 L-0.002,11.997 L1.292,5.998 L-0.002,-0.001 L8.000,5.998 ZM1.265,9.924 L6.502,5.998 L1.265,2.071 L2.112,5.998 L1.265,9.924 ZM5.451,5.998 L2.496,8.213 L2.974,5.998 L2.496,3.783 L5.451,5.998 Z" class="cls-1"/> </svg></span>ENGLISH</a>&nbsp;&nbsp;( 14 )</li>
+                                  
+                                                                      <li><a href="https://aadri.in/Blog/blog-category/2/Hindi"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="8" height="12" viewBox="0 0 8 12"> <path d="M8.000,5.998 L-0.002,11.997 L1.292,5.998 L-0.002,-0.001 L8.000,5.998 ZM1.265,9.924 L6.502,5.998 L1.265,2.071 L2.112,5.998 L1.265,9.924 ZM5.451,5.998 L2.496,8.213 L2.974,5.998 L2.496,3.783 L5.451,5.998 Z" class="cls-1"/> </svg></span>HINDI</a>&nbsp;&nbsp;( 21 )</li>
+                                  
+                                                                      <li><a href="https://aadri.in/Blog/blog-category/5/Video"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="8" height="12" viewBox="0 0 8 12"> <path d="M8.000,5.998 L-0.002,11.997 L1.292,5.998 L-0.002,-0.001 L8.000,5.998 ZM1.265,9.924 L6.502,5.998 L1.265,2.071 L2.112,5.998 L1.265,9.924 ZM5.451,5.998 L2.496,8.213 L2.974,5.998 L2.496,3.783 L5.451,5.998 Z" class="cls-1"/> </svg></span>VIDEO</a>&nbsp;&nbsp;( 42 )</li>
+                                  
+                                                                  </ul>
+                            </div>
+                        </div>
+
+                       
+                        
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="as_footer_widget">
+                               <h3 class="as_footer_heading">Contact Us</h3>
+                               <ul class="as_contact_list">
+                                                                        <li>
+                                       <img src="https://aadri.in/assets/images/svg/map.svg" alt="aadri branch map aadri">
+                                            <p>601, Ruby Crescent Business Boulevard, Ashok Nagar, Kandivali East, Mumbai 400101 </p>
+                                    </li>
+                                     
+                                    <li>
+                                       <img src="https://aadri.in/assets/images/svg/address.svg" alt="aadri address pin reach">
+                                              <p><span>Mail Us<span>
+                                                 <a href="mailto:support@aadri@@in"
+                                                       onmouseover="this.href=this.href.replace('@@','.')"> <br>
+                                                     &nbsp; &nbsp; - Support Aadri </a>
+                                                 <a href="mailto:aadrisageadvice@gmail@@com"
+                                                     onmouseover="this.href=this.href.replace('@@','.')"> <br>
+                                                     &nbsp; &nbsp; - Advice and Consultant </a>
+                                              </p>
+                                       
+                                    </li> 
+                                    <li>
+                                       <img src="https://aadri.in/assets/images/svg/call.svg" alt="aadri svg call contact number">
+                                        <p>
+                                                                                        <a href="tel:+91 8767070551">+91 8767070551</a><br>
+                                                                                        <a href="tel:+91 9871146011">+91 9871146011</a><br>
+                                                                                    </p>
+                                         
+                                    </li>
+                               </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="as_copyright_wrapper text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="foot_p">Copyright &copy; 2021 Aadri. All Rights Reserved  | Developed By  <a href="http://dreamclass.co.in/">Dream Infotech</a> </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Razor pay variable  -->
+                
+          <!--Razor pay form  Start  -->
+         <form name="razorpay-form" id="razorpay-form" action="https://aadri.in/razorpay/callback" method="POST">
+          <input type="hidden" name="razorpay_payment_id" id="razorpay_payment_id" />
+          <input type="hidden" name="merchant_order_id" id="merchant_order_id" 
+          value="16373143421"/>
+          <input type="hidden" name="merchant_trans_id" id="merchant_trans_id" value="1637314342"/>
+          <input type="hidden" name="merchant_surl_id" id="merchant_surl_id" value="https://aadri.in/order/payment_confirm"/>
+          <input type="hidden" name="merchant_furl_id" id="merchant_furl_id" value="https://aadri.in/razorpay/failed"/>
+          <input type="hidden" name="card_holder_name_id" id="card_holder_name_id" value="ab test"/>
+          <input type="hidden" name="merchant_total" id="merchant_total" value="14900"/>
+          <input type="hidden" name="merchant_amount" id="merchant_amount" value="149"/>
+        </form>     
+        
+         <!--Razor pay form  End   -->
+       
+<script>
+function myToggleQuestion() {
+  var x = document.getElementById("myQuestionDiv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<!--Razor Pay-->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+     
+    <script>
+      var razorpay_options = {
+        key: "rzp_live_i8SRVTKFcpRnRU",
+        amount: "14900",
+        name: "Aadri",
+        description: "Order # 16373143421",
+        netbanking: true,
+        currency: "INR",
+        prefill: {
+          name:"ab test",
+          email: "ab@gmail.com",
+          contact: "9687748562"
+        },
+        notes: {
+          soolegal_order_id: "16373143421",
+        },
+        handler: function (transaction) {
+            document.getElementById('razorpay_payment_id').value = transaction.razorpay_payment_id;
+            document.getElementById('razorpay-form').submit();
+        },
+        "modal": {
+            "ondismiss": function(){
+                location.reload()
+            }
+        }
+      };
+      var razorpay_submit_btn, razorpay_instance;
+    
+      function QuicksolutionrazorpaySubmitService(el){
+            var ask_que =  $.trim( $('#ask_sol').val() );
+            var login_user= "2";
+             //alert(ask_que);
+             //check logged in user
+             if(login_user==""){
+                 alert("want to ask your question, please login first.");
+                 window.location = "https://aadri.in/Login";
+                 exit;
+             }
+            
+            //check textearea is not empty
+             if (ask_que == "") {
+               $("#error_ask").show();
+             }
+             else
+             {
+                    //assign ask_que jquery varibale value to php varaible
+                    $.ajax({
+                        type: 'post',
+                        data: {ask_que: ask_que}, //Pass the id
+                    });
+                    
+                     
+                   
+                if(typeof Razorpay == 'undefined'){
+                  setTimeout(QuicksolutionrazorpaySubmitService, 200);
+                  if(!razorpay_submit_btn && el){
+                    razorpay_submit_btn = el;
+                    el.disabled = true;
+                    el.value = 'Please wait...';  
+                  }
+                } else {
+                  if(!razorpay_instance){
+                    razorpay_instance = new Razorpay(razorpay_options);
+                    if(razorpay_submit_btn){
+                      razorpay_submit_btn.disabled = false;
+                      razorpay_submit_btn.value = "Pay Now";
+                    }
+                  }
+                  razorpay_instance.open();
+                }
+              }  
+      }      
+    </script>
+    <!--Razor Pay-->
+       </div>
+    
+    <!-- javascript -->
+    <script src="https://aadri.in/assets/cdn.jsdelivr.net/npm/jquery%403.5.1/dist/jquery.min.js"></script>
+    <script src="https://aadri.in/assets/cdn.jsdelivr.net/npm/bootstrap%404.6.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://aadri.in/assets/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://aadri.in/assets/js/plugin/slick/slick.min.js"></script>
+    <script type="text/javascript" src="https://aadri.in/assets/js/plugin/countto/jquery.countTo.js"></script>
+    <script src="https://aadri.in/assets/js/custom.js"></script>
+    <script>
+      var razorpay_options = {
+        key: "rzp_live_i8SRVTKFcpRnRU",
+        amount: "70000",
+        name: "Aadri",
+        description: "Order # 16373143421",
+        netbanking: true,
+        currency: "INR",
+        prefill: {
+          name:"ab test",
+          email: "ab@gmail.com",
+          contact: "9687748562"
+        },
+        notes: {
+          soolegal_order_id: "16373143421",
+        },
+        handler: function (transaction) {
+            document.getElementById('razorpay_payment_id').value = transaction.razorpay_payment_id;
+            document.getElementById('razorpay-form').submit();
+        },
+        "modal": {
+            "ondismiss": function(){
+                location.reload()
+            }
+        }
+      };
+      var razorpay_submit_btn, razorpay_instance;
+    
+      function razorpaySubmit(el){
+        if(typeof Razorpay == 'undefined'){
+          setTimeout(razorpaySubmit, 200);
+          if(!razorpay_submit_btn && el){
+            razorpay_submit_btn = el;
+            el.disabled = true;
+            el.value = 'Please wait...';  
+          }
+        } else {
+          if(!razorpay_instance){
+            razorpay_instance = new Razorpay(razorpay_options);
+            if(razorpay_submit_btn){
+              razorpay_submit_btn.disabled = false;
+              razorpay_submit_btn.value = "Pay Now";
+            }
+          }
+          razorpay_instance.open();
+        }
+      }  
+    </script>
+  
+</body>
+
+</html>

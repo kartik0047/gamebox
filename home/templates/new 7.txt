@@ -1,0 +1,3 @@
+git remote add origin https://github.com/kartik0047/game.git
+
+https://github.com/kartik0047/game

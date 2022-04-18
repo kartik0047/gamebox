@@ -26,9 +26,7 @@ from django.core.mail import send_mail
 #     if not (request.session.get('email')):
 #            return redirect("/loginUser")  
 
-def index(request):
-     if not (request.session.get('email')):
-           return redirect("/loginUser")  
+def index(request): 
      games_results = Games.objects.all() #select * from games tables
      return render(request, 'index.html', {'games_data':games_results})
 
@@ -371,15 +369,27 @@ def add_to_wishlist(request,game_id):
         checkw=Wishlist.objects.filter(customer_id=cust_id, games_id=game_id).count()
         if checkw > 0:
             messages.error(request, 'This item has been already added.')
+            return render(request,'wishlist.html')
         else:        
             wish = Wishlist(customer_id=cust_id, games_id=game_id, status=1)
             wish.save()
-        return render(request,'index.html')
+            return render(request,'wishlist.html')
 
+        return render(request,'wishlist.html')
+
+def deletewishlist(request,id):
+    if not (request.session.get('email')):
+           return redirect("/loginUser")  
+    else:
+     wishlist = Wishlist.objects.get(id=id)
+     wishlist.delete()
+     messages.success(request, 'Product Remove From Wishlist...')
+    return render(request,'wishlist.html')
+    
 def view_wishlist(request):
 
-    game_results = Wishlist.objects.all()
-    return render(request,'wishlist.html', {'games_da':game_results})
+    wishlist = Wishlist.objects.all()
+    return render(request,'wishlist.html', {'games_da':wishlist})
 
 def wishlist_clear(request):
     if not (request.session.get('email')):

@@ -40,6 +40,7 @@ urlpatterns = [
            path('subscribe', views.subscribe,name='subscribe'),
            path('add_to_wishlist/<game_id>', views.add_to_wishlist, name='add_to_wishlist'),
            path('view_wishlist', views.view_wishlist, name='view_wishlist'),
+           path('deletewishlist/<int:id>', views.deletewishlist, name='deletewishlist'),
            path('wishlist_clear', views.wishlist_clear, name='wishlist_clear'),
 
            #ADD TO CART

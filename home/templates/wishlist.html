@@ -8,11 +8,22 @@
 
 {% block body %}
 {% load cart_tag %}
+
 <div class="container">
     <div class="row">
         <div class="col-lg-10">
             <br>
             <h5>My Wishlist:</h5>
+            {% if messages %}
+                {% for msg in messages  %}
+                    <div class="alert alert-{{msg.tags}} alert-dismissible fade show" role="alert">
+                        <strong> {{ msg }} </strong> 
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+             {% endfor %}
+            {% endif %}  
             <div class="card card-body">			
                 <table class="table table-sm">
                     <tr>
@@ -23,19 +34,18 @@
                         <th>Purchase</th>
                         <th>Remove</th> 
                     </tr>
-
-                    {% for wish in games_da %}   
-                    <tr>
-                    {% if wish.customer_id == request.session.id %} 
+                     {% for wish in games_da %}   
+                      <tr>
+                       {% if wish.customer_id == request.session.id %} 
                         <td> <a><img height="100px" width="100px" style="border-radius:100px;" src="{{wish.games.image.url}}"></a> </td> 
                         <td>  {{wish.games}} </td>
                         <td> ₹{{wish.games.price}} </td>
                         <td> <a class="btn btn-sm btn-info" href=""><i class="fa fa-shopping-cart" aria-hidden="true" style="font-size:20px;"></i></a></td>
                         <td> <a class="btn btn-sm btn-success" href=" ">Buy Now</a></td>
-                        <td> <a href=""><i class="fa fa-trash" aria-hidden="true" style="font-size:25px"></i></a> </td>
-                    </tr>
-                   {% endif %}  
-                   {% endfor %} 
+                        <td> <a href="{% url 'deletewishlist' wish.id %}"><i class="fa fa-trash" aria-hidden="true" style="font-size:25px"></i></a> </td>
+                     </tr>
+                    {% endif %}  
+                    {% endfor %} 
                     <tr>
                         <td><a class = "btn btn-danger"  href="" role="button">Clear</a></td>
                     </tr>

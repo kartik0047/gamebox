@@ -1,0 +1,37 @@
+{% extends 'header.html' %}
+
+{% load static %}
+
+{% block title %}View Cart{% endblock title %}
+
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-10">
+            <br>
+            <h5>Games:</h5>
+            <div class="card card-body">			
+                <table class="table table-sm">
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Price</th>
+                        
+                    </tr>
+                    {% for game in cart.games.all %}
+                    <tr>
+                        <td>{{game.id}} </td>
+                        <td>{{games_name}} </td>
+                        <td>{{game.price}} </td>
+                        
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% endblock body %}
