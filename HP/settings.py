@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 import os
 from pathlib import Path
+import django_heroku
 from django.contrib.messages import constants as messages
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -25,10 +26,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-^88(-lq121%8hv5wj*8p6i!n+1$(uczpmdba=ic=r&(o%xm-%p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", 'gamedem.herokuapp.com']
-#ALLOWED_HOSTS = [ ]
+#ALLOWED_HOSTS = ["127.0.0.1", 'gamedem.herokuapp.com']
+ALLOWED_HOSTS = [ ]
 
 
 # Application definition
@@ -178,6 +179,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / 'media'
 
+# Activate Django-Heroku.
+django_heroku.settings(locals())
 
 CART_SESSION_ID = 'cart'
 
